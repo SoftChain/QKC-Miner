@@ -4,7 +4,7 @@ import os
 from utils import underline, colorify
 from quarkchain.utils import sha3_256
 
-FILE = "../../testnet/2/cluster_config_template.json"
+FILE = "../cluster_config_template.json"
 
 
 def gen_address():
