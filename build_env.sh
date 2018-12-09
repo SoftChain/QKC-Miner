@@ -13,14 +13,10 @@ brew update
 echo Installing Docker
 brew install docker
 
-#install requirement module for mining
-#echo Installing Requirments
-#brew install pypy3 gmp pkg-config openssl
-
 #Pull testnet image
 echo Pull testnet image
 docker pull ninjaahhh/pyquarkchain:testnet2.2.2
-echo docker run -it -p 38291:38291 -p 38391:38391 -p 38491:38491 -p 38291:38291/udp ninjaahhh/pyquarkchain:testnet2.2.2
+docker run -it -p 38291:38291 -p 38391:38391 -p 38491:38491 -p 38291:38291/udp ninjaahhh/pyquarkchain:testnet2.2.2
 
 #Fill your miner address
 echo Installing your miner address
