@@ -5,7 +5,7 @@ echo Installing Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 #check update for Homebrew
-echo Checking Update of Homebrew
+echo Checking Update for Homebrew
 brew update
 
 #Pull testnet image
