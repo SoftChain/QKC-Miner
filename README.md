@@ -3,6 +3,8 @@
 
 Easy mining script for QuarkChain Testnet 2
 
+bata version 0.1
+
 ## 步骤
 1. 安装Docker环境
 
@@ -74,3 +76,6 @@ docker ps -a
 docker exec -it 你的 Container ID quarkchain/tools/external_miner_manager.sh -c /code/pyquarkchain/testnet/2/cluster_config_template.json -p 8 -h localhost
 ```
 然后粘贴到terminal中，回车，就可以挖矿了。
+
+#### 当然这个方法依旧不简单，如果有什么问题欢迎联系我。
+#### Mac端的一键启动GUI版正在构建中。。。敬请期待！
