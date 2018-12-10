@@ -1,9 +1,6 @@
 # QKC-Miner
-简单一键部署QuarkChain 测试网2.0 脚本 macOS版
+简单一键部署QuarkChain 测试网2.0 脚本 macOS版本
 
-Easy mining script for QuarkChain Testnet 2
-
-bata version 0.1
 
 ## 步骤
 1. 安装Docker环境
@@ -18,14 +15,14 @@ bata version 0.1
 
 2. 准备QKC地址，或者一个ETH地址
 
-获取QKC地址：[Testnet2](https://testnet2.quarkchain.io)
+获取QKC地址：[Testnet](https://testnet2.quarkchain.io)
 
 3. 打开"终端.app" 或者是用搜索"terminal.app" 复制下面指令
 
 ```bash
 git clone https://github.com/HangyuYe/QKC-Miner.git
 cd QKC-Miner
-bash miner/build_env.sh
+bash miner/pull_image.sh
 ```
 
 大约需要10分钟左右安装所有模块
@@ -33,14 +30,9 @@ bash miner/build_env.sh
 4. 等待安装完成以后复制以下代码：
 
 ```bash
-pypy3 quarkchain/tools/miner_address.py
+bash miner/setup_cluster.sh
 ```
 然后黏贴你的ETH或者QKC钱包地址按回车！
-
-继续复制以下代码：
-```bash
-pypy3 quarkchain/cluster/cluster.py --cluster_config /code/pyquarkchain/testnet/2/cluster_config_template.json
-```
 
 等待大概1小时左右区块会同步完成，当出现一堆下面这样的字符，大概率是同步完成了：
 ```bash
@@ -69,14 +61,12 @@ SLAVE_S3: I1210 07:07:48.558459 shard.py:143] [3] received new header with heigh
 
 * 新建一个窗口 "cmd+n" 复制一下代码到新的窗口里
 ```bash
-docker ps -a
+bash miner/mining.sh
 ```
-然后复制 Container ID 一串16进制的字符。填入下面的代码中：
-```bash
-docker exec -it 你的 Container ID quarkchain/tools/external_miner_manager.sh -c /code/pyquarkchain/testnet/2/cluster_config_template.json -p 8 -h localhost
-```
-然后粘贴到terminal中，回车，就可以挖矿了。
+回车，就可以挖矿了。
 
-        当然这个方法依旧不简单，如果有什么问题欢迎联系我。
+**当然这个方法上手还是有点难度，如果有什么问题欢迎联系我。**
 
-        Mac端的一键启动GUI版正在构建中。。。敬请期待！
+**Mac端的一键启动GUI版正在构建中。。。敬请期待！**
+
+## 常见问题
