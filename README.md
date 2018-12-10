@@ -32,7 +32,7 @@ bash miner/pull_image.sh
 ```bash
 bash miner/setup_cluster.sh
 ```
-然后黏贴你的ETH或者QKC钱包地址按回车！
+然后粘贴你的ETH或者QKC钱包地址按回车！
 
 等待大概1小时左右区块会同步完成，当出现一堆下面这样的字符，大概率是同步完成了：
 ```bash
@@ -70,3 +70,7 @@ bash miner/mining.sh
 **Mac端的一键启动GUI版正在构建中。。。敬请期待！**
 
 ## 常见问题
+启动集群同步功能：
+```bash
+bash miner/sync.sh
+```
