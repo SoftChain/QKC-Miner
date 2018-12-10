@@ -77,6 +77,6 @@ docker exec -it 你的 Container ID quarkchain/tools/external_miner_manager.sh -
 ```
 然后粘贴到terminal中，回车，就可以挖矿了。
 
->>> 当然这个方法依旧不简单，如果有什么问题欢迎联系我。
+        当然这个方法依旧不简单，如果有什么问题欢迎联系我。
 
->>> Mac端的一键启动GUI版正在构建中。。。敬请期待！
+        Mac端的一键启动GUI版正在构建中。。。敬请期待！
