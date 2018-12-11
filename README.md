@@ -1,6 +1,7 @@
-# QKC-Miner
-简单一键部署QuarkChain 测试网2.0 脚本 macOS版本
+# QuarkChain 挖矿教程
+简单署QuarkChain 测试网2.0 挖矿脚本 macOS版本
 
+### 部署云服务器 Linux [脚本](https://github.com/HangyuYe/QKC-Miner/linux/README.mb)
 
 ## 步骤
 1. 安装Docker环境
@@ -70,7 +71,7 @@ bash miner/mining.sh
 **Mac端的一键启动GUI版正在构建中。。。敬请期待！**
 
 ## 常见问题
-启动集群同步功能：
+单独启动集群同步节点功能：
 ```bash
 bash miner/sync.sh
 ```
