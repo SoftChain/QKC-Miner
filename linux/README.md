@@ -1,34 +1,22 @@
 # QuarkChain 挖矿教程
 简单署QuarkChain 测试网2.0 挖矿脚本 macOS版本
 
-### 部署云服务器 Linux [脚本](https://github.com/HangyuYe/QKC-Miner/linux/README.mb)
+### 部署Linux 云服务器  [脚本](https://github.com/HangyuYe/QKC-Miner/tree/pre-releases/linux)
 
 ## 步骤
 1. 安装Docker环境
 
-* 系统要求：macOS El Capitan 10.11 以上，并且具有 4GB以上内存
-
-* 下载地址：[官网下载地址](https://store.docker.com/editions/community/docker-ce-desktop-mac)
-
-* 下载完成以后打开一个 .dmg的文件并且将它拖到应用软件当中。
-
-* 打开"Docker.app"
+``` bash
+sudo bash linux/build_env.sh
+```
 
 2. 准备QKC地址，或者一个ETH地址
 
 获取QKC地址：[Testnet](https://testnet2.quarkchain.io)
 
-3. 打开"终端.app" 或者是用搜索"terminal.app" 复制下面指令
-
-```bash
-git clone https://github.com/HangyuYe/QKC-Miner.git
-cd QKC-Miner
-bash miner/pull_image.sh
-```
-
 大约需要10分钟左右安装所有模块
 
-4. 等待安装完成以后复制以下代码：
+3. 等待安装完成以后复制以下代码：
 
 ```bash
 bash miner/setup_cluster.sh
@@ -60,7 +48,7 @@ SLAVE_S3: I1210 07:07:48.558459 shard.py:143] [3] received new header with heigh
 
 5. 准备挖矿
 
-* 新建一个窗口 "cmd+n" 复制一下代码到新的窗口里
+* 新建一个Terminal窗口复制以下代码到新的窗口里
 ```bash
 bash miner/mining.sh
 ```

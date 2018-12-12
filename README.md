@@ -60,7 +60,7 @@ SLAVE_S3: I1210 07:07:48.558459 shard.py:143] [3] received new header with heigh
 
 5. 准备挖矿
 
-* 新建一个窗口 "cmd+n" 复制一下代码到新的窗口里
+* 新建一个窗口 "cmd+n" 复制以下代码到新的窗口里
 ```bash
 bash miner/mining.sh
 ```
