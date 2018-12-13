@@ -75,3 +75,8 @@ bash miner/mining.sh
 ```bash
 bash miner/sync.sh
 ```
+
+关闭挖矿
+```bash
+docker stop qkcminer
+```

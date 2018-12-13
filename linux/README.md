@@ -1,10 +1,17 @@
 # QuarkChain 挖矿教程
-简单署QuarkChain 测试网2.0 挖矿脚本 macOS版本
+简单署QuarkChain 测试网2.0 挖矿脚本 Linux版本
 
-### 部署Linux 云服务器  [脚本](https://github.com/HangyuYe/QKC-Miner/tree/pre-releases/linux)
+## 搭建一个云服务器
+* 选择任意一个云服务器提供商，建议选择国外的，或者使用国内服务商提供的国外服务器。
+* 最低要求：2 vCPU，4 GB内存，100 GB的硬盘存储空间
+* 建议系统：Ubuntu 18以上。
+* 当然性能越高，挖矿的效率越高，建议内存是核心数的4倍。（目前挖矿没有回报，所以量力而行）
+
+* 供应商：腾讯云，阿里云，AWS，Google Cloud（首次注册有 US$300的现金可用）
+* 注册方法大家可以自行百度。
 
 ## 步骤
-1. 安装Docker环境
+1. 安装环境
 
 ``` bash
 sudo bash linux/build_env.sh
@@ -62,4 +69,9 @@ bash miner/mining.sh
 单独启动集群同步节点功能：
 ```bash
 bash miner/sync.sh
+```
+
+关闭挖矿
+```bash
+docker stop qkcminer
 ```
