@@ -1,5 +1,6 @@
 # QuarkChain 挖矿教程
 简单署QuarkChain 测试网2.0 挖矿脚本 Linux版本
+部署macOS 版本[看这里](https://github.com/HangyuYe/QKC-Miner)
 
 ## 搭建一个云服务器
 * 选择任意一个云服务器提供商，建议选择国外的，或者使用国内服务商提供的国外服务器。
