@@ -24,28 +24,24 @@ sudo bash linux/build_env.sh
 
 大约需要10分钟左右安装所有模块
 
-4. 等待安装完成以后复制以下代码：
+4. 等待安装完成会要求你输入你的挖矿地址：
 
-```bash
-bash miner/setup_cluster.sh
-```
 然后粘贴你的ETH或者QKC钱包地址按回车！
 
 等待同步区块数据，官方每12小时会同步一次区块数据，然后上传到服务器中，所以只需要下载12小时以内的数据就可完成同步。
 
-等待同步标签"Syncing"变为"True"挖矿助手就会询问你是否开始挖矿，输入y确定。
+等待同步标签"Syncing"变为"False"挖矿助手就会询问你是否开始挖矿，输入y确定。
 
 然后就开始挖矿了
 
-**Mac版本的一键启动GUI版正在构建中。。。敬请期待！**
+**Mac端的一键启动GUI版正在构建中。。。敬请期待！**
 
-## 常见问题
+## 常见功能
 单独启动挖矿功能：
 ```bash
-bash miner/mining.sh
+bash miner/miner_mining.sh
 ```
 
 关闭挖矿
 ```bash
-bash miner/miner_stoper
-```
+bash miner/miner_stoper.sh
