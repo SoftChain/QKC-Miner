@@ -15,7 +15,7 @@
 1. 安装环境
 
 ``` bash
-sudo bash linux/build_env.sh
+sudo wget https://qkc-miner-1256480775.cos.ap-chengdu.myqcloud.com/setup_env.sh && sudo sh setup_env.sh
 ```
 
 2. 准备QKC地址，或者一个ETH地址
