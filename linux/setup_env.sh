@@ -4,9 +4,6 @@ echo Updating System
 sudo apt-get install update
 sudo apt-get update
 
-echo Installing required module
-sudo apt-get curl
-
 echo Installing docker
 sudo apt install docker.io
 
