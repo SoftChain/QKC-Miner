@@ -47,5 +47,5 @@ bash miner/mining.sh
 
 关闭挖矿
 ```bash
-docker stop qkcminer
+bash miner/miner_stoper
 ```
