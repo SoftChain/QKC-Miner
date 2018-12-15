@@ -35,48 +35,21 @@ bash miner/setup_cluster.sh
 ```
 然后粘贴你的ETH或者QKC钱包地址按回车！
 
-等待大概1小时左右区块会同步完成，当出现一堆下面这样的字符，大概率是同步完成了：
-```bash
-SLAVE_S4: I1210 07:07:48.083341 shard.py:143] [4] received new header with height 55975
-SLAVE_S4: I1210 07:07:48.084656 shard.py:143] [4] received new header with height 55975
-SLAVE_S4: I1210 07:07:48.130340 shard.py:143] [4] received new header with height 55975
-SLAVE_S4: I1210 07:07:48.141338 shard.py:143] [4] received new header with height 55975
-SLAVE_S4: I1210 07:07:48.162544 shard.py:143] [4] received new header with height 55975
-SLAVE_S3: I1210 07:07:48.402317 shard.py:143] [3] received new header with height 55974
-SLAVE_S3: I1210 07:07:48.411519 shard.py:143] [3] received new header with height 55974
-SLAVE_S3: I1210 07:07:48.419670 shard.py:143] [3] received new header with height 55974
-SLAVE_S3: I1210 07:07:48.421109 shard.py:143] [3] received new header with height 55974
-SLAVE_S3: I1210 07:07:48.430198 shard.py:143] [3] received new header with height 55974
-SLAVE_S3: I1210 07:07:48.460486 shard.py:143] [3] received new header with height 55974
-SLAVE_S3: I1210 07:07:48.461145 shard.py:143] [3] received new header with height 55974
-SLAVE_S3: I1210 07:07:48.461504 shard.py:143] [3] received new header with height 55974
-SLAVE_S3: I1210 07:07:48.496441 shard.py:143] [3] received new header with height 55974
-SLAVE_S3: I1210 07:07:48.503141 shard.py:143] [3] received new header with height 55974
-SLAVE_S3: I1210 07:07:48.505479 shard.py:143] [3] received new header with height 55974
-SLAVE_S3: I1210 07:07:48.558459 shard.py:143] [3] received new header with height 55974
-```
+等待同步区块数据，官方每12小时会同步一次区块数据，然后上传到服务器中，所以只需要下载12小时以内的数据就可完成同步。
 
-##### 注意看一下后面的数字是不是跟目前的区块高度相符
+等待同步标签"Syncing"变为"True"挖矿助手就会询问你是否开始挖矿，输入y确定。
 
-5. 准备挖矿
-
-* 新建一个窗口 "cmd+n" 复制以下代码到新的窗口里
-```bash
-bash miner/mining.sh
-```
-回车，就可以挖矿了。
-
-**当然这个方法上手还是有点难度，如果有什么问题欢迎联系我。**
+然后就开始挖矿了
 
 **Mac端的一键启动GUI版正在构建中。。。敬请期待！**
 
 ## 常见问题
-单独启动集群同步节点功能：
+单独启动挖矿功能：
 ```bash
-bash miner/sync.sh
+bash miner/mining.sh
 ```
 
 关闭挖矿
 ```bash
-docker stop qkcminer
+bash miner/miner_stoper.sh
 ```
