@@ -42,9 +42,9 @@ sudo wget https://qkc-miner-1256480775.cos.ap-chengdu.myqcloud.com/setup_env.sh 
 ## 常见功能
 单独启动挖矿功能：
 ```bash
-bash miner/miner_mining.sh
+bash linux/miner_mining.sh
 ```
 
 关闭挖矿
 ```bash
-bash miner/miner_stoper.sh
+bash linux/miner_stoper.sh
