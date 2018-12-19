@@ -16,7 +16,7 @@
 
 2. 准备QKC地址，或者一个ETH地址
 
-获取QKC地址：[Testnet](https://testnet2.quarkchain.io)
+获取QKC地址：[Testnet](https://testnet2.quarkchain.io/wallet)
 
 3. 打开"终端.app" 或者是用搜索"terminal.app" 复制下面指令
 
@@ -42,10 +42,10 @@ bash miner/miner_install.sh
 ## 常见功能
 单独启动挖矿功能：
 ```bash
-bash miner/miner_mining.sh
+bash mac/miner_mining.sh
 ```
 
 关闭挖矿
 ```bash
-bash miner/miner_stoper.sh
+bash mac/miner_stoper.sh
 ```

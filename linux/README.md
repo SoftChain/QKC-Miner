@@ -23,7 +23,7 @@ sudo wget https://qkc-miner-1256480775.cos.ap-chengdu.myqcloud.com/setup_env.sh 
 
 2. 准备QKC地址，或者一个ETH地址
 
-获取QKC地址：[Testnet](https://testnet2.quarkchain.io)
+获取QKC地址：[Testnet](https://testnet2.quarkchain.io/wallet)
 
 大约需要10分钟左右安装所有模块
 
@@ -42,9 +42,9 @@ sudo wget https://qkc-miner-1256480775.cos.ap-chengdu.myqcloud.com/setup_env.sh 
 ## 常见功能
 单独启动挖矿功能：
 ```bash
-bash linux/miner_mining.sh
+sudo sh linux/miner_mining.sh
 ```
 
 关闭挖矿
 ```bash
-bash linux/miner_stoper.sh
+sudo sh linux/miner_stoper.sh
