@@ -1,6 +1,18 @@
 # QuarkChain 挖矿教程
 简单署QuarkChain 测试网2.0 挖矿脚本 macOS版本
 
+## 2.4更新
+区别于之前的Testnet的3个最主要的更新
+Three major differences comparing with the previous testnet:
+
+1. 分片ID编译进了地址定义
+Shard ID encoding in our address definition
+2. 初始化支持多种类本地Token
+Initial support for multi-native-tokens
+3. 开始支持并支持PoSW 混合共识
+Enabling and testing Proof of Staked Work hybrid consensus
+
+
 ### 部署云服务器 Linux [脚本](https://github.com/HangyuYe/QKC-Miner/tree/master/linux)
 
 ## 步骤
