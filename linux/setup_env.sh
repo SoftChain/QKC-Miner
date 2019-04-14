@@ -13,5 +13,5 @@ cd QKC-Miner
 git pull
 
 echo Pulling image
-sudo docker pull ninjaahhh/pyquarkchain:testnet2.5.2
-sudo docker run -it --name qkcminer -p 38291:38291 -p 38391:38391 -p 38491:38491 -p 38291:38291/udp ninjaahhh/pyquarkchain:testnet2.5.2 bash /code/pyquarkchain/quarkchain/tools/quick_miner_tool.sh
+sudo docker pull ninjaahhh/pyquarkchain:testnet2.5.4
+sudo docker run -it --name qkcminer -p 38291:38291 -p 38391:38391 -p 38491:38491 -p 38291:38291/udp ninjaahhh/pyquarkchain:testnet2.5.4 bash /code/pyquarkchain/quarkchain/tools/quick_miner_tool.sh
