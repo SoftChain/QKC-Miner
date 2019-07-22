@@ -28,7 +28,7 @@ Enabling and testing Proof of Staked Work hybrid consensus
 
 2. 准备QKC地址，或者一个ETH地址
 
-获取QKC地址：[Testnet](https://testnet2.quarkchain.io/wallet)
+获取QKC主网地址 [Mainnet](https://mainnet.quarkchain.io/wallet)
 
 3. 打开"终端.app" 或者是用搜索"terminal.app" 复制下面指令
 
