@@ -1,7 +1,9 @@
-真正的一行代码挖矿来了。或许你只需要一个浏览器就能挖矿
 # QuarkChain 挖矿教程
-超级简单署QuarkChain 测试网2.0 挖矿脚本 Linux版本
-要部署macOS 版本[看这里](https://github.com/HangyuYe/QKC-Miner)
+简单署QuarkChain 测试网2.0 挖矿脚本 “云挖矿版本”
+
+要部署macOS 版本[看这里](https://github.com/HangyuYe/QKC-Miner/tree/master/mac)
+要部署Linux 版本[看这里](https://github.com/HangyuYe/QKC-Miner/tree/master/linux)
+
 
 多图慎入
 

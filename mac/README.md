@@ -1,8 +1,10 @@
 # QuarkChain 挖矿教程
-简单署QuarkChain 测试网2.0 挖矿脚本 macOS版本
+简单署QuarkChain 测试网2.0 挖矿脚本 “云挖矿版本”
 
-### 部署云服务器 Linux [脚本](https://www.jianshu.com/p/14287ab02cf1)
-### GitHub [源代码](https://github.com/HangyuYe/QKC-Miner/tree/master/linux)
+要部署云矿机 版本[看这里](https://github.com/HangyuYe/QKC-Miner)
+[简书](https://www.jianshu.com/p/14287ab02cf1)
+要部署Linux 版本[看这里](https://github.com/HangyuYe/QKC-Miner/tree/master/linux)
+
 
 ## 步骤
 1. 安装Docker环境

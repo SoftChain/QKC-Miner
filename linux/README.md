@@ -1,6 +1,10 @@
 # QuarkChain 挖矿教程
-简单署QuarkChain 测试网2.0 挖矿脚本 Linux版本
-部署macOS 版本[看这里](https://github.com/HangyuYe/QKC-Miner)
+简单署QuarkChain 测试网2.0 挖矿脚本 “云挖矿版本”
+
+要部署云矿机 版本[看这里](https://github.com/HangyuYe/QKC-Miner)
+[简书](https://www.jianshu.com/p/14287ab02cf1)
+要部署Mac 版本[看这里](https://github.com/HangyuYe/QKC-Miner/tree/master/mac)
+
 
 ## 2.4更新
 区别于之前的Testnet的3个最主要的更新
