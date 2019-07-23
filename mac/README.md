@@ -24,6 +24,7 @@
 ```bash
 git clone https://github.com/HangyuYe/QKC-Miner.git
 cd QKC-Miner
+bash miner_install.sh
 ```
 大约需要10分钟左右安装所有模块
 
