@@ -1,5 +1,5 @@
 # QuarkChain 挖矿教程
-简单署QuarkChain 测试网2.0 挖矿脚本 “云挖矿版本”
+简单署QuarkChain 主网1.1.1 挖矿脚本 “云挖矿版本”
 
 要部署macOS 版本[看这里](https://github.com/HangyuYe/QKC-Miner/tree/master/mac)
 要部署Linux 版本[看这里](https://github.com/HangyuYe/QKC-Miner/tree/master/linux)

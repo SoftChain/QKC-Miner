@@ -1,5 +1,5 @@
 # QuarkChain 挖矿教程
-简单署QuarkChain 测试网2.0 挖矿脚本 “云挖矿版本”
+简单署QuarkChain 主网1.1.1 挖矿脚本 “云挖矿版本”
 
 要部署云矿机 版本[看这里](https://github.com/HangyuYe/QKC-Miner)
 [简书](https://www.jianshu.com/p/14287ab02cf1)
@@ -26,7 +26,7 @@
 ```bash
 git clone https://github.com/HangyuYe/QKC-Miner.git
 cd QKC-Miner
-bash miner_install.sh
+bash miner/setup_env.sh
 ```
 大约需要10分钟左右安装所有模块
 

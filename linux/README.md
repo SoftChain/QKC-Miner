@@ -1,23 +1,9 @@
 # QuarkChain 挖矿教程
-简单署QuarkChain 测试网2.0 挖矿脚本 “云挖矿版本”
+简单署QuarkChain 主网1.1.1 挖矿脚本 “云挖矿版本”
 
 要部署云矿机 版本[看这里](https://github.com/HangyuYe/QKC-Miner)
 [简书](https://www.jianshu.com/p/14287ab02cf1)
 要部署Mac 版本[看这里](https://github.com/HangyuYe/QKC-Miner/tree/master/mac)
-
-
-## 2.4更新
-区别于之前的Testnet的3个最主要的更新
-Three major differences comparing with the previous testnet:
-
-1. 分片ID编译进了地址定义
-Shard ID encoding in our address definition
-2. 初始化支持多种类本地Token
-Initial support for multi-native-tokens
-3. 开始支持并支持PoSW 混合共识
-Enabling and testing Proof of Staked Work hybrid consensus
-
-举个例子🌰，[看这里](https://www.jianshu.com/p/14287ab02cf1)
 
 ## 搭建一个云服务器
 * 选择任意一个云服务器提供商，建议选择国外的，或者使用国内服务商提供的国外服务器。
