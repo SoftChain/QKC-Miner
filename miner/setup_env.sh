@@ -12,5 +12,5 @@ git clone https://github.com/HangyuYe/QKC-Miner.git
 cd QKC-Miner
 
 echo Pulling image
-sudo docker pull quarkchaindocker/pyquarkchain:mainnet1.1.3
-sudo docker run -it --name cluster --network host quarkchaindocker/pyquarkchain:mainnet1.1.3 bash
+sudo docker pull quarkchaindocker/pyquarkchain:mainnet1.3.0
+sudo docker run -it --name cluster --network host quarkchaindocker/pyquarkchain:mainnet1.3.0
