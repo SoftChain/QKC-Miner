@@ -1,9 +1,13 @@
+# 最新更新
+版本：Mainnet1.3.0  
+更新内容:  
+* 在根链上启用 PoSW挖矿。  
+
 # QuarkChain 挖矿教程
-简单署QuarkChain 主网1.1.1 挖矿脚本 “云挖矿版本”
+简单署QuarkChain 主网1.3.0 挖矿脚本 “云挖矿版本”
 
 要部署macOS 版本[看这里](https://github.com/HangyuYe/QKC-Miner/tree/master/mac)
 要部署Linux 版本[看这里](https://github.com/HangyuYe/QKC-Miner/tree/master/linux)
-
 
 多图慎入
 
